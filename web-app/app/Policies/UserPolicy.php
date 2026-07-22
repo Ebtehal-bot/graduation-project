@@ -1,0 +1,46 @@
+<?php
+
+namespace App\Policies;
+
+use App\Models\User;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class UserPolicy
+{
+    use HandlesAuthorization;
+
+    public function viewAny(User $user): bool
+    {
+        return $user->hasAnyRole(['super_admin', 'supervisor', 'employee']);
+    }
+
+    public function view(User $user, User $model): bool
+    {
+        return $user->hasAnyRole(['super_admin', 'supervisor', 'employee']);
+    }
+
+    public function create(User $user): bool
+    {
+        return $user->hasRole('super_admin') || $user->hasRole('employee');
+    }
+
+    public function update(User $user, User $model): bool
+    {
+        return $user->hasRole('super_admin') || $user->hasRole('supervisor');
+    }
+
+    public function delete(User $user, User $model): bool
+    {
+        return $user->hasRole('super_admin');
+    }
+
+    public function restore(User $user, User $model): bool
+    {
+        return $user->hasRole('super_admin');
+    }
+
+    public function forceDelete(User $user, User $model): bool
+    {
+        return $user->hasRole('super_admin');
+    }
+}

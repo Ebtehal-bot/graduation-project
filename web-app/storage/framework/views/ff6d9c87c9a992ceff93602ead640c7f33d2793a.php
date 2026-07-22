@@ -1,0 +1,3 @@
+<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+</svg><?php /**PATH C:\Users\DELL\Desktop\تبع براءه\orphan-system\storage\framework\views/3cb7607566e69123e875e0b87ca7c93a53f3ee60.blade.php ENDPATH**/ ?>

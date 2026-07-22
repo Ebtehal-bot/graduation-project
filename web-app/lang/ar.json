@@ -1,0 +1,7 @@
+{
+    "The :attribute must contain at least one letter.": "يجب أن يحتوي :attribute على حرف واحد على الأقل.",
+    "The :attribute must contain at least one number.": "يجب أن يحتوي :attribute على رقم واحد على الأقل.",
+    "The :attribute must contain at least one symbol.": "يجب أن يحتوي :attribute على رمز واحد على الأقل.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "يجب أن يحتوي :attribute على حرف كبير وحرف صغير على الأقل.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": ":attribute المقدم موجود في تسريب بيانات. يرجى اختيار :attribute مختلف."
+}

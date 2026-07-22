@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'orphans' => 'الأيتام',
+    'sponsors' => 'الكفلاء',
+    'sponsorships' => 'الكفالات',
+    'payments' => 'سجل المدفوعات',
+    'users' => 'المستخدمين والصلاحيات',
+    'branches' => 'الفروع',
+    'settings' => 'الإعدادات',
+    'help_center' => 'مركز المساعدة والدعم',
+    'analytics_dashboard' => 'مركز الإحصائيات التحليلي',
+    'reports_center' => 'التقارير',
+    'advanced_reports' => 'التقارير المتقدمة',
+
+    'nav_group.financial_management' => 'الإدارة المالية',
+    'nav_group.general_management' => 'الإدارة العامة',
+    'nav_group.reports' => 'التقارير',
+    'nav_group.reports_analytics' => 'التقارير والتحليل',
+    'nav_group.system_management' => 'إدارة النظام',
+
+    'model.orphan' => 'يتيم',
+    'model.orphans_plural' => 'قائمة الأيتام',
+    'model.sponsor' => 'كفيل',
+    'model.sponsors_plural' => 'الكفلاء',
+    'model.sponsorship' => 'كفالة',
+    'model.sponsorships_plural' => 'الكفالات',
+    'model.payment' => 'دفعة مالية',
+    'model.payments_plural' => 'سجل المدفوعات',
+    'model.user' => 'مستخدم',
+    'model.users_plural' => 'المستخدمين',
+    'model.branch' => 'فرع',
+    'model.branches_plural' => 'الفروع',
+    'model.report' => 'تقرير',
+    'model.reports_center' => 'مركز التقارير الموحد',
+];

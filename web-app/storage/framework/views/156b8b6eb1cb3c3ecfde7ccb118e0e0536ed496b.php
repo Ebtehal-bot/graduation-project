@@ -1,0 +1,2 @@
+
+<?php /**PATH C:\Users\DELL\Desktop\تبع براءه\orphan-system\resources\views/vendor/filament/components/layouts/app/sidebar/footer.blade.php ENDPATH**/ ?>

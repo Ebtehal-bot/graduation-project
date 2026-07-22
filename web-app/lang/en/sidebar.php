@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'orphans' => 'Orphans',
+    'sponsors' => 'Sponsors',
+    'sponsorships' => 'Sponsorships',
+    'payments' => 'Payment Records',
+    'users' => 'Users & Roles',
+    'branches' => 'Branches',
+    'settings' => 'Settings',
+    'help_center' => 'Help & Support Center',
+    'analytics_dashboard' => 'Analytics Dashboard',
+    'reports_center' => 'Reports',
+    'advanced_reports' => 'Advanced Reports',
+
+    'nav_group.financial_management' => 'Financial Management',
+    'nav_group.general_management' => 'General Management',
+    'nav_group.reports' => 'Reports',
+    'nav_group.reports_analytics' => 'Reports & Analytics',
+    'nav_group.system_management' => 'System Management',
+
+    'model.orphan' => 'Orphan',
+    'model.orphans_plural' => 'Orphans List',
+    'model.sponsor' => 'Sponsor',
+    'model.sponsors_plural' => 'Sponsors',
+    'model.sponsorship' => 'Sponsorship',
+    'model.sponsorships_plural' => 'Sponsorships',
+    'model.payment' => 'Payment',
+    'model.payments_plural' => 'Payment Records',
+    'model.user' => 'User',
+    'model.users_plural' => 'Users',
+    'model.branch' => 'Branch',
+    'model.branches_plural' => 'Branches',
+    'model.report' => 'Report',
+    'model.reports_center' => 'Reports Center',
+];

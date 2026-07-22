@@ -1,0 +1,1 @@
+<?php /**PATH C:\Users\NEW RAM\Desktop\orphan-system\resources\views/vendor/filament/components/global-search/start.blade.php ENDPATH**/ ?>

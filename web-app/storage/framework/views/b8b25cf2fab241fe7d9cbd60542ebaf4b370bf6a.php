@@ -1,0 +1,35 @@
+<form wire:submit.prevent="authenticate" class="space-y-8">
+    <?php echo e($this->form); ?>
+
+
+    <?php if(session('register_success')): ?>
+        <div class="text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg p-3 text-center">
+            تم إنشاء الحساب بنجاح. يمكنك الآن تسجيل الدخول باستخدام بريدك الإلكتروني وكلمة المرور.
+        </div>
+    <?php endif; ?>
+
+    <?php if (isset($component)) { $__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4 = $component; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'filament::components.button','data' => ['type' => 'submit','form' => 'authenticate','class' => 'w-full']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('filament::button'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(Illuminate\View\AnonymousComponent::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['type' => 'submit','form' => 'authenticate','class' => 'w-full']); ?>
+        <?php echo e(__('filament::login.buttons.submit.label')); ?>
+
+     <?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4)): ?>
+<?php $component = $__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4; ?>
+<?php unset($__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4); ?>
+<?php endif; ?>
+
+    <div class="text-center">
+        <a href="<?php echo e(route('filament.register')); ?>" class="text-sm text-primary-600 hover:text-primary-500 transition-colors duration-200">
+            ليس لديك حساب؟ إنشاء حساب جديد
+        </a>
+    </div>
+</form>
+<?php /**PATH C:\Users\DELL\Desktop\مشروع التخرج\orphan-system\resources\views/vendor/filament/login.blade.php ENDPATH**/ ?>
